@@ -1,0 +1,143 @@
+.app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  height: 60px;
+  padding-inline: 4rem;
+}
+
+.logo {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: whitesmoke;
+  background-color:deepskyblue;
+}
+
+.btn {
+  flex-basis: calc(100% / 3);
+}
+
+.btn button {
+  border: 2px solid rgb(71, 72, 72);
+  border-radius: 30px;
+  height: 3rem;
+  width: 8rem;
+  background-color: white;
+  color: rgb(71, 72, 72);
+  font-size: medium;
+  display: block;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 50%;
+}
+.first {
+  height: 100vh;
+  width: 100%;
+}
+
+.c1 {
+  margin: auto;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+
+}
+
+.c1 h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 7.5ch;
+  border-top-width: 2px;
+  border-bottom-width: 0px;
+}
+
+
+.c1 span {
+  color: deepskyblue;
+}
+
+.c1 p {
+  width: 80%;
+  line-height: 30px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.horizontalLine {
+  width: 80%;
+  border-style: groove;
+}
+
+.c2 {
+  margin: auto;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.btn :hover {
+  scale: 101%;
+}
+
+.rating {
+  font-size: 15px;
+  margin-top: 25px;
+  color: #ffd700; /* Gold color */
+}
+
+.rating::before {
+  content: "★★★★";
+  letter-spacing: -1px;
+}
+
+.middle {
+  width: 100%;
+  display:flex;
+  /* flex-wrap: wrap; */
+  justify-content:center;
+  gap: 20px;
+  position: relative;
+  top: -150px;
+}
+.bx img, .bx {
+  border-radius: 20px;
+}
+
+.rate {
+  background-color: gray;
+  height: 18rem;
+  width: 25rem;
+}
+
+.second {
+  height: 100vh;
+  width: 100%;
+  margin-top: -100px;
+}
+.category {
+  margin: 4rem;
+}
+.card {
+  margin: 4rem;
+}
