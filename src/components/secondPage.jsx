@@ -7,25 +7,27 @@ import { ImProfile } from "react-icons/im";
 function SecondPage() {
   return (
     <div className="second">
-      <div className="category">
+      <div className="category" style={{ display: 'flex', justifyContent: 'space-between'}}>
         <div>
-          <h4>OUR CATEGORIES</h4>
-          <h1>Check Out Popular Contest Categories</h1>
+          <h4 style={{ color:'skyblue'}}>OUR CATEGORIES</h4>
+          <h1>Check Out <span style={{color: 'skyblue'}}>Popular</span> Contest <span style={{color: 'skyblue'}}>Categories</span></h1>
         </div>
-        <button>Discover All Categories</button>
+        <button style={{height: '6vh', borderRadius: '10px', padding: '10px', background: 'skyblue', color: 'whitesmoke', fontSize: '20px', border: 'transparent'}}>
+          Discover All Categories
+        </button>
       </div>
-      <div className="card" style={{ display: "flex", gap: "50px" }}>
+      <div className="card" style={{ display: "flex", gap: "50px", justifyContent:'center' }}>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "25%",
+            width: "20%",
             border: "1px solid gray",
             padding: "20px",
             borderRadius: "20px",
           }}
         >
-          <div style={{ display: "flex", gap: "50px" }}>
+          <div style={{ display: "flex", gap: "5vw" }}>
             <div style={{ flexBasis: "10%", height: "50px" }}>
               <FaRegImage
                 style={{ marginLeft: "25px", marginTop: "20px" }}
@@ -50,13 +52,13 @@ function SecondPage() {
           </div>
           <img
             src="img1.jpg"
-            style={{ height: "20rem", borderRadius: "20px" }}
+            style={{ height: "32vh", borderRadius: "20px" }}
             alt=""
           />
           <button
-            style={{
-              height: "3rem",
-              width: "27.5rem",
+            style={{  
+              height: "6vh",
+              width: "18.5vw",
               marginTop: "20px",
               borderRadius: "20px",
               border: "2px solid skyblue",
@@ -73,7 +75,7 @@ function SecondPage() {
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "25%",
+            width: "20%",
             border: "1px solid gray",
             padding: "20px",
             borderRadius: "20px",
@@ -109,8 +111,8 @@ function SecondPage() {
           />
           <button
             style={{
-              height: "3rem",
-              width: "27.5rem",
+              height: "6vh",
+              width: "18.5vw",
               marginTop: "20px",
               borderRadius: "20px",
               border: "2px solid skyblue",
@@ -127,7 +129,7 @@ function SecondPage() {
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "25%",
+            width: "20%",
             border: "1px solid gray",
             padding: "20px",
             borderRadius: "20px",
@@ -163,8 +165,8 @@ function SecondPage() {
           />
           <button
             style={{
-              height: "3rem",
-              width: "27.5rem",
+              height: "6vh",
+              width: "18.5vw",
               marginTop: "20px",
               borderRadius: "20px",
               border: "2px solid skyblue",
@@ -181,7 +183,7 @@ function SecondPage() {
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "25%",
+            width: "20%",
             border: "1px solid gray",
             padding: "20px",
             borderRadius: "20px",
@@ -217,8 +219,8 @@ function SecondPage() {
           />
           <button
             style={{
-              height: "3rem",
-              width: "27.5rem",
+              height: "6vh",
+              width: "18.5vw",
               marginTop: "20px",
               borderRadius: "20px",
               border: "2px solid skyblue",
